@@ -24,14 +24,15 @@
 # marvel = ("Spidey", "Thor")
 # print(marvel,type(marvel))
 
-# x = "Ironman"
-# y = "Blasters"
+x = "Ironman"
 
 def weapons():
-    global x
-    x = "Spiderman "
-    y = " webshooters"
-    print(x + "uses" + y)
-
+    if(x == "Ironman"):
+        weapon = "Blasters"
+    elif(x == "Spiderman"):
+        weapon = "Webshooters"
+        
+    print(x + " uses " + weapon)
 weapons()
+
 #print (x)
