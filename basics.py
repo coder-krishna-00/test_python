@@ -27,11 +27,11 @@
 # x = "Ironman"
 # y = "Blasters"
 
-# def weapons():
-#     global x
-#     x = "Spiderman "
-#     y = " webshooters"
-#     print(x + "uses" + y)
+def weapons():
+    global x
+    x = "Spiderman "
+    y = " webshooters"
+    print(x + "uses" + y)
 
-# weapons()
-# print (x)
+weapons()
+print (x)
