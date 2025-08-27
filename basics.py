@@ -34,4 +34,4 @@ def weapons():
     print(x + "uses" + y)
 
 weapons()
-print (x)
+#print (x)
