@@ -24,7 +24,7 @@
 # marvel = ("Spidey", "Thor")
 # print(marvel,type(marvel))
 
-x = "Ironman"
+x = "Spiderman"
 
 def weapons():
     if(x == "Ironman"):
